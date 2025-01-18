@@ -1,3 +1,3 @@
 # ArduinoElemental
-From https://wokwi.com/projects/new/arduino-uno
-Simulate this on https://wokwi.com
+For https://wokwi.com/projects/new/arduino-uno
+Simulate projects on https://wokwi.com
