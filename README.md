@@ -1,2 +1,1 @@
-# ArduinoBasics
-Simulate projects on https://wokwi.com/projects/new/arduino-uno
+Simulate sketchs and projects on https://wokwi.com/projects/new/arduino-uno
