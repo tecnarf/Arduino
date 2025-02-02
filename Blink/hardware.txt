@@ -1,0 +1,9 @@
+Hardware Requerido
+
+	Arduino Board
+
+Opcional
+
+	LED
+
+	Resistor 220 ohm

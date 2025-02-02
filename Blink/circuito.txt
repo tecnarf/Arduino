@@ -1,0 +1,9 @@
+Circuito
+Este ejemplo utiliza el LED incorporado que tienen la mayoría de las placas Arduino. 
+Este LED está conectado a un pin digital y su número puede variar de un tipo de placa a otro. 
+Para hacerle la vida más fácil, tenemos una constante que se especifica en cada hoja de especificaciones.
+ 
+Esta constante es LED_BUILTIN y le permite controlar el LED incorporado fácilmente. 
+Si desea encender un LED externo con este boceto, necesita construir este circuito, donde conecta un extremo de la resistencia al pin digital correspondiente a la constante LED_BUILTIN. Conecte la pata larga del LED (la pata positiva, llamada ánodo) al otro extremo de la resistencia. Conecte la pata corta del LED (la pata negativa, llamada cátodo) al GND. En el siguiente diagrama mostramos una placa UNO que tiene D13 como valor LED_BUILTIN.
+
+La resistencia es esencial para un funcionamiento seguro, ya que limita la corriente que fluye a través del LED, evitando daños tanto al LED como al pin de salida del Arduino. Puede elegir el valor de la resistencia según la corriente deseada usando la Ley de Ohm (V = IR), donde V es el voltaje de su placa (5 V o 3,3 V) menos el voltaje directo del LED que está utilizando (lo típico para el rojo sería 1,8 a 2,2 voltios). En este caso, el uso de una resistencia de 220 ohmios con un Arduino UNO R3 (una placa de 5 V) limita la corriente a un nivel seguro tanto para el LED como para el pin Arduino. Ajustar el valor de la resistencia le permite controlar el brillo del LED y al mismo tiempo garantizar un funcionamiento seguro. Para placas de 5 V, puede esperar que el LED sea visible con un valor de resistencia de hasta 1 K Ohm.
